@@ -1,6 +1,5 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>
 using namespace std;
 
 int main(){
@@ -14,7 +13,6 @@ int main(){
         a.push_back(temp);
     }
 
-    sort(a.begin(), a.end());
     for(int i=0; i<N; i++){
         cout<<a[i]<<"\n";
     }
