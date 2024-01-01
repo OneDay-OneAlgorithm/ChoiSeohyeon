@@ -84,4 +84,9 @@
 
 ## commit convention
 
-> 날짜: 문제명 or 문제 번호
+> [타입] 날짜: 문제명 or 문제 번호
+
+- [add] - 문제 추가
+- [refactor] - 푼 문제 풀이 수정
+- [chore] - 폴더 구조 및 다른 잡일 수정
+- [test] - 테스트
