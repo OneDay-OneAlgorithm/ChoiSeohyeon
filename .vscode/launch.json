@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/choeseohyeon/Desktop/WorkSpace/Problem-Solving/24-Winter-algorithm/2018-kakao-blind",
-      "program": "/Users/choeseohyeon/Desktop/WorkSpace/Problem-Solving/24-Winter-algorithm/2018-kakao-blind/build/Debug/outDebug"
+      "cwd": "/Users/choeseohyeon/Desktop/WorkSpace/Problem-Solving/solvedac-class",
+      "program": "/Users/choeseohyeon/Desktop/WorkSpace/Problem-Solving/solvedac-class/build/Debug/outDebug"
     }
   ]
 }
