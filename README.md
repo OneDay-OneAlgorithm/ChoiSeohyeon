@@ -6,7 +6,7 @@
 
 ✅ 24-Winter-algorithm : 24 Winter Vacation Algorithm Study Folder
 
-✅ PS-boj-cpp : Baekjoon problem solved folder
+✅ PS-boj : Baekjoon problem solved folder
 
 ✅ solvedac-class : solved.ac-class problem solved folder
 
@@ -20,7 +20,7 @@
 | 1/2  | n진수 게임, 압축               | ✅ (pg), (boj) |
 | 1/3  | 파일 옮기기                    | ✅(boj)        |
 | 1/4  | 시험감독                       | ✅(boj)        |
-| 1/5  |                                |                |
+| 1/5  | 약수 구하기                    | ✅(boj)        |
 | 1/6  |                                |                |
 | 1/7  |                                |                |
 | 1/8  |                                |                |
