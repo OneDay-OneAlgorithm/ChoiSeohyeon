@@ -19,27 +19,35 @@ int distanceVal(int block[], int s, int e)
 {
     if (s > e)
         swap(s, e);
-    int l = s, r = s;
-    int num = 0;
+    int start_block = s, end_block = s;
+    int distance = 0;
 
     while (true)
     {
-        if (l <= e && e <= r)
+        if (start_block <= e && e <= end_block)
         {
             break;
         }
-        else if (block[l] - l == block[e] - e)
+        else if (block[start_block] - start_block == block[e] - e)
         {
-            num += abs(l - e);
+            if (e < start_block)
+            {
+                distance += start_block - e;
+            }
+            else
+            {
+                distance += e - end_block;
+            }
             break;
         }
-        num += 1;
-        l = block[l], r = block[r] + 1;
+        distance += 1;
+        start_block = block[start_block];
+        end_block = block[end_block] + 1;
     }
-    return num;
+    return distance;
 }
 
-int main()
+int main(int argc, char **argv)
 {
     ios::sync_with_stdio(0);
     cin.tie(0);
