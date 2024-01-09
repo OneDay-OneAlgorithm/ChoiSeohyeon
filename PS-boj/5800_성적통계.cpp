@@ -28,6 +28,7 @@ int main()
         // 마지막 요소는 빼기 위해 v.size() - 1
         for (int j = 0; j < v.size() - 1; j++)
         {
+            // maxGap = max(maxGap, v[j] - v[j + 1]);으로 수정 가능
             if (maxGap < v[j] - v[j + 1])
             {
                 maxGap = v[j] - v[j + 1];
