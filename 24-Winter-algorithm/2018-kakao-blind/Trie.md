@@ -1,6 +1,6 @@
 ## 트라이 (Trie) 자료구조
 
-> 소문자는 26, 전체 문자는 52개
+> 소문자는 26, 전체 문자는 52개로 바로 구하기!
 > 문제 : https://school.programmers.co.kr/learn/courses/30/lessons/17685
 
 - 트라이(Trie)는 문자열을 저장하고 효율적으로 탐색하기 위한 트리 형태의 자료구조
