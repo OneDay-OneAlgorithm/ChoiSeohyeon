@@ -17,6 +17,7 @@ int main()
     int count = 0;
     for (int i = 0; i < input.length(); i++)
     {
+        // input.length() 문자열이 끝인지 아닌지 확인 해줘야 함.
         if (input[i] == 'c' && i + 1 < input.length() && (input[i + 1] == '=' || input[i + 1] == '-'))
         {
             i++;
