@@ -1,4 +1,6 @@
 // 백준 : 괄호 끼워넣기, 브론즈 4
+// 개행 문자 지우기 ignore()
+// 공백 포함 받기 getline()
 
 #include <iostream>
 using namespace std;
