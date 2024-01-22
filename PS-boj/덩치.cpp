@@ -18,10 +18,9 @@ int main()
         cin >> xy[i].first >> xy[i].second;
     }
 
-    int score = 1;
-
     for (int i = 0; i < n; i++)
     {
+        int score = 1;
         for (int j = 0; j < n; j++)
         {
             if (xy[i].first < xy[j].first && xy[i].second < xy[j].second)
@@ -31,7 +30,6 @@ int main()
         }
 
         cout << score << " ";
-        score = 1;
     }
 
     return 0;
