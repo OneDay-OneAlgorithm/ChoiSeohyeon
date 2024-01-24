@@ -36,7 +36,7 @@ int main()
         s[i] = alph;
     }
 
-    cout << alph << "\n";
+    cout << s << "\n";
 
     return 0;
 }
