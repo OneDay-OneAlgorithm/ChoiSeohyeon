@@ -2,6 +2,7 @@
 // 정점의 개수: n, 간선의 개수: m, 양끝점 u,v
 
 #include <iostream>
+#include <vector>
 using namespace std;
 
 // 전역 변수는 이미 0으로 초기화 되어 있음, 힙 공간 (이미 0임)
