@@ -3,6 +3,7 @@
 ## The language I use the most is 'C++'
 
 ## 1일 1알고리즘 근황 🐈
+
 ![](https://api.mosu.blog/candosh/Problem-Solving?since=2024-01-01)
 
 ## 1일 1알고리즘 표 👩🏻‍💻
@@ -39,7 +40,7 @@
 | 1/26 | 연결 요소의 개수               | ✅ (boj)       |
 | 1/27 | serca                          | ✅ (boj)       |
 | 1/28 | 큰수A+B                        | ✅ (boj)       |
-| 1/29 |                                |                |
+| 1/29 | The Game of Death              | ✅ (boj)       |
 | 1/30 |                                |                |
 | 1/31 |                                |                |
 
