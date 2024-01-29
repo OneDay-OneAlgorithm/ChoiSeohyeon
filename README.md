@@ -2,13 +2,8 @@
 
 ## The language I use the most is 'C++'
 
-✅ 23-Summer-algorithm : 23 summer vacation algorithm study folder
-
-✅ 24-Winter-algorithm : 24 Winter Vacation Algorithm Study Folder
-
-✅ PS-boj : Baekjoon problem solved folder
-
-✅ solvedac-class : solved.ac-class problem solved folder
+## 1일 1알고리즘 근황 🐈
+![](https://api.mosu.blog/candosh/Problem-Solving?since=2024-01-01)
 
 ## 1일 1알고리즘 표 👩🏻‍💻
 
