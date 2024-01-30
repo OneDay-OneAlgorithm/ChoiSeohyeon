@@ -19,7 +19,7 @@ int main(){
 
 while (cin >> n)
 
-// sss알고 템플릿
+## sss알고 템플릿
 
 | Date |         #         |  Problem  | Algorithm |
 | :--: | :---------------: | :-------: | :-------: |
