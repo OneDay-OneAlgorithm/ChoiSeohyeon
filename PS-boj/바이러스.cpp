@@ -1,4 +1,4 @@
-// 실버 3
+// 실버 3, 진짜로 1번 컴퓨터가 걸렸을 경우만 출력하면 된다...
 
 #include <iostream>
 #include <vector>
@@ -6,7 +6,7 @@ using namespace std;
 
 int ComNum, Pair;
 vector<int> vals[101];
-int visited[101];
+int visited[101] = {0};
 
 void dfs(int curr)
 {
@@ -14,9 +14,10 @@ void dfs(int curr)
     for (int i = 0; i < vals[curr].size(); ++i)
     {
         int next = vals[curr][i];
-        if (visited[next])
-            continue;
-        dfs(next);
+        if (!visited[next])
+        {
+            dfs(next);
+        }
     }
 }
 
@@ -31,17 +32,17 @@ int main()
     {
         int a, b;
         cin >> a >> b;
-        vals[b].push_back(a);
         vals[a].push_back(b);
+        vals[b].push_back(a);
     }
 
-    int res = 0;
+    dfs(1);
 
+    int res = -1;
     for (int i = 1; i <= ComNum; i++)
     {
-        if (!visited[i])
+        if (visited[i])
         {
-            dfs(i);
             res++;
         }
     }
