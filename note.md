@@ -7,9 +7,12 @@ cout.tie(0);
 ## 기본 템플릿
 
 #include <iostream>
+
 using namespace std;
 
 int main(){
+ios::sync_with_stdio();
+cin.tie();
 
     return 0;
 
@@ -26,4 +29,5 @@ while (cin >> n)
 | 날짜 | [문제 번호](링크) | 문제 제목 |
 
 ## 나머지
+
 '/' 연산자는 몫을 반환하고, '%' 연산자는 나머지를 반환
