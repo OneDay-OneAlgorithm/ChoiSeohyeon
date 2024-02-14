@@ -34,4 +34,8 @@ while (cin >> n)
 
 ## pow
 
-cmath 헤더 파일에 포함된 pow 함수는 거듭제곱 연산을 수행
+cmath 헤더 파일에 포함된 pow 함수는 거듭제곱 연산을 수행,
+pow는 기본적으로 double이기 때문에 (int) 변환 해줘야 함.
+
+## dfs
+방문 여부
