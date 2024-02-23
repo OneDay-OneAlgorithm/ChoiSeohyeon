@@ -1,12 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-string compare(string a, string b)
+bool compare(string a, string b)
 {
     if (a.length() == b.length())
     {
         return a < b;
     }
+    else return a.length() < b.length();
 }
 
 int main()

@@ -1,0 +1,6 @@
+-- hour 함수, HOUR(DATETIME) AS HOUR
+-- where 절은 and, or 쓰임
+SELECT HOUR(DATETIME) as HOUR, 	COUNT(DATETIME) as COUNT from ANIMAL_OUTS
+WHERE HOUR(DATETIME) >= 9 AND HOUR(DATETIME) <= 19
+group by HOUR
+order by HOUR asc

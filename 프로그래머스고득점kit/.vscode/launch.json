@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/choeseohyeon/Desktop/WorkSpace/Problem-Solving/프로그래머스고득점kit/스택-큐",
+      "program": "/Users/choeseohyeon/Desktop/WorkSpace/Problem-Solving/프로그래머스고득점kit/스택-큐/build/Debug/outDebug"
+    }
+  ]
+}
