@@ -2,7 +2,6 @@
 -- 서브쿼리란 다른 sql 쿼리 내부에 포함된 쿼리
 
 SELECT FOOD_TYPE, REST_ID, REST_NAME, FAVORITES from REST_INFO
-where(FOOD_TYPE, FAVORITES) 
-in (select FOOD_TYPE, max(FAVORITES) from REST_INFO group by FOOD_TYPE)
+where(FOOD_TYPE, FAVORITES) in (select FOOD_TYPE, max(FAVORITES) from REST_INFO group by FOOD_TYPE)
 order by FOOD_TYPE desc
 

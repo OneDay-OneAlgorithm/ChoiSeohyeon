@@ -1,0 +1,3 @@
+SELECT FLAVOR from FIRST_HALF join ICECREAM_INFO using(FLAVOR)
+where TOTAL_ORDER > 3000 and INGREDIENT_TYPE = 'fruit_based'
+order by TOTAL_ORDER desc
