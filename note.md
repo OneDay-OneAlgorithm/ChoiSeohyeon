@@ -50,3 +50,6 @@ pow는 기본적으로 double이기 때문에 (int) 변환 해줘야 함.
 - JOIN은 두 개 이상의 테이블에서 관련 행을 결합하여 새로운 결과 테이블을 생성하는 데 사용되며, 주로 행의 데이터를 결합합니다.
 - NULL AS USER_ID 널로 출력
 - date_format(값, 포맷) as 원하는 값 : ex. date_format(HIRE_YMD, "%Y-%m-%d") as HIRE_YMD
+
+## 긴 문자열 받아서 비교
+- strlen(s) 갯수 세기
