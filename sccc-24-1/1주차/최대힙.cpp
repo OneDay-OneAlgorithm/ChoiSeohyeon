@@ -10,13 +10,13 @@ int main()
 	int n;
 	cin >> n;
 
-	priority_queue<int, vector<int>, greater<int>> pq;
+	priority_queue<int> pq;
 
 	int x;
 	for (int i = 0; i < n; i++)
 	{
 		cin >> x;
-		if (x != 0)
+		if (x >= 1)
 		{
 			pq.push(x);
 		}
