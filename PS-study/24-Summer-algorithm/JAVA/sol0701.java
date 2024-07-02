@@ -1,4 +1,4 @@
-public class Main {
+public class sol0701 {
  
     public static void main(String[] args) {
  
