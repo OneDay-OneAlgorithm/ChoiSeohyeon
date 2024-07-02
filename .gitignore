@@ -32,3 +32,5 @@
 *.app
 
 .github/
+note.md
+.vscode/
