@@ -1,4 +1,4 @@
-public class sop0703 {
+public class sol0713 {
 	public int solution(int angle) {
         int answer = 0;
         if(angle==180){
